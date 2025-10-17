@@ -88,6 +88,17 @@ body {
 }
 
 @layer components {
+  /* Offset content for fixed header height */
+  main {
+    @apply pt-[7vh] lg:pt-[10vh];
+    width: 100vw;
+  }
+
+  /* Ensure in-page anchor jumps don't land under the fixed header */
+  section {
+    scroll-margin-top: 7vh;
+  }
+
   header {
     @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
 
