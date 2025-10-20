@@ -411,7 +411,7 @@ body {
   }
 
   footer {
-    @apply container mx-auto py-7 max-lg:px-5;
+    @apply container mx-auto py-12 px-6 lg:px-8 2xl:px-12;
 
     .info {
       @apply flex-between;
@@ -430,7 +430,7 @@ body {
     }
 
     .links {
-      @apply flex flex-col lg:flex-row lg:items-center justify-between max-lg:mt-5 gap-5 text-sm;
+      @apply flex flex-col lg:flex-row lg:items-center justify-between max-lg:mt-8 gap-5 text-sm mt-6;
 
       ul {
         @apply lg:divide-x flex flex-col lg:flex-row gap-2.5;
